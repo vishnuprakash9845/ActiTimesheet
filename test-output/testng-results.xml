@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87114" started-at="2016-12-23T01:57:50Z" finished-at="2016-12-23T01:59:17Z">
+    <groups>
+    </groups>
+    <test name="Test_Desktop1" duration-ms="81300" started-at="2016-12-23T01:57:50Z" finished-at="2016-12-23T01:59:11Z">
+      <class name="euro.genomics.scripts.ValidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.ValidLogin@fc185]" name="preCondition" is-config="true" duration-ms="6710" started-at="2016-12-23T07:28:22Z" finished-at="2016-12-23T07:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:euro.genomics.scripts.ValidLogin@fc185]" name="testValidLoginLogout" duration-ms="10534" started-at="2016-12-23T07:28:29Z" finished-at="2016-12-23T07:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.ValidLogin@fc185]" name="postCondition" is-config="true" duration-ms="11" started-at="2016-12-23T07:28:40Z" finished-at="2016-12-23T07:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.ValidLogin -->
+      <class name="euro.genomics.scripts.InvalidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.InvalidLogin@82f6ef]" name="preCondition" is-config="true" duration-ms="14305" started-at="2016-12-23T07:27:50Z" finished-at="2016-12-23T07:28:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvaliLogin()[pri:0, instance:euro.genomics.scripts.InvalidLogin@82f6ef]" name="testInvaliLogin" duration-ms="18036" started-at="2016-12-23T07:28:04Z" finished-at="2016-12-23T07:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvaliLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.InvalidLogin@82f6ef]" name="postCondition" is-config="true" duration-ms="14" started-at="2016-12-23T07:28:22Z" finished-at="2016-12-23T07:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.InvalidLogin -->
+      <class name="euro.genomics.scripts.VerifyProductVersion">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@3b1d11]" name="preCondition" is-config="true" duration-ms="11008" started-at="2016-12-23T07:28:40Z" finished-at="2016-12-23T07:28:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyProductVersion()[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@3b1d11]" name="testVerifyProductVersion" duration-ms="20620" started-at="2016-12-23T07:28:51Z" finished-at="2016-12-23T07:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyProductVersion -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@3b1d11]" name="postCondition" is-config="true" duration-ms="24" started-at="2016-12-23T07:29:11Z" finished-at="2016-12-23T07:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.VerifyProductVersion -->
+    </test> <!-- Test_Desktop1 -->
+    <test name="Test_Dektop2" duration-ms="82504" started-at="2016-12-23T01:57:50Z" finished-at="2016-12-23T01:59:12Z">
+      <class name="euro.genomics.scripts.ValidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.ValidLogin@1ee9faa]" name="preCondition" is-config="true" duration-ms="3457" started-at="2016-12-23T07:28:40Z" finished-at="2016-12-23T07:28:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.5:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:euro.genomics.scripts.ValidLogin@1ee9faa]" name="testValidLoginLogout" duration-ms="12106" started-at="2016-12-23T07:28:44Z" finished-at="2016-12-23T07:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.ValidLogin@1ee9faa]" name="postCondition" is-config="true" duration-ms="29" started-at="2016-12-23T07:28:56Z" finished-at="2016-12-23T07:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.ValidLogin -->
+      <class name="euro.genomics.scripts.InvalidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.InvalidLogin@167c1fc]" name="preCondition" is-config="true" duration-ms="28957" started-at="2016-12-23T07:27:50Z" finished-at="2016-12-23T07:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.5:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvaliLogin()[pri:0, instance:euro.genomics.scripts.InvalidLogin@167c1fc]" name="testInvaliLogin" duration-ms="21396" started-at="2016-12-23T07:28:19Z" finished-at="2016-12-23T07:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvaliLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.InvalidLogin@167c1fc]" name="postCondition" is-config="true" duration-ms="145" started-at="2016-12-23T07:28:40Z" finished-at="2016-12-23T07:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.InvalidLogin -->
+      <class name="euro.genomics.scripts.VerifyProductVersion">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@38203]" name="preCondition" is-config="true" duration-ms="3292" started-at="2016-12-23T07:28:56Z" finished-at="2016-12-23T07:28:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.5:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyProductVersion()[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@38203]" name="testVerifyProductVersion" duration-ms="13074" started-at="2016-12-23T07:28:59Z" finished-at="2016-12-23T07:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyProductVersion -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@38203]" name="postCondition" is-config="true" duration-ms="30" started-at="2016-12-23T07:29:12Z" finished-at="2016-12-23T07:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.VerifyProductVersion -->
+    </test> <!-- Test_Dektop2 -->
+    <test name="Test_Laptop" duration-ms="87109" started-at="2016-12-23T01:57:50Z" finished-at="2016-12-23T01:59:17Z">
+      <class name="euro.genomics.scripts.ValidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.ValidLogin@1604f19]" name="preCondition" is-config="true" duration-ms="5061" started-at="2016-12-23T07:28:30Z" finished-at="2016-12-23T07:28:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:0, instance:euro.genomics.scripts.ValidLogin@1604f19]" name="testValidLoginLogout" duration-ms="9702" started-at="2016-12-23T07:28:35Z" finished-at="2016-12-23T07:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.ValidLogin@1604f19]" name="postCondition" is-config="true" duration-ms="2306" started-at="2016-12-23T07:28:45Z" finished-at="2016-12-23T07:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.ValidLogin -->
+      <class name="euro.genomics.scripts.InvalidLogin">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.InvalidLogin@193948d]" name="preCondition" is-config="true" duration-ms="19877" started-at="2016-12-23T07:27:50Z" finished-at="2016-12-23T07:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvaliLogin()[pri:0, instance:euro.genomics.scripts.InvalidLogin@193948d]" name="testInvaliLogin" duration-ms="17726" started-at="2016-12-23T07:28:10Z" finished-at="2016-12-23T07:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvaliLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.InvalidLogin@193948d]" name="postCondition" is-config="true" duration-ms="2352" started-at="2016-12-23T07:28:28Z" finished-at="2016-12-23T07:28:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.InvalidLogin -->
+      <class name="euro.genomics.scripts.VerifyProductVersion">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@23a2f9]" name="preCondition" is-config="true" duration-ms="16703" started-at="2016-12-23T07:28:47Z" finished-at="2016-12-23T07:29:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testVerifyProductVersion()[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@23a2f9]" name="testVerifyProductVersion" duration-ms="11052" started-at="2016-12-23T07:29:04Z" finished-at="2016-12-23T07:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyProductVersion -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:euro.genomics.scripts.VerifyProductVersion@23a2f9]" name="postCondition" is-config="true" duration-ms="2312" started-at="2016-12-23T07:29:15Z" finished-at="2016-12-23T07:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- euro.genomics.scripts.VerifyProductVersion -->
+    </test> <!-- Test_Laptop -->
+  </suite> <!-- Suite -->
+</testng-results>
